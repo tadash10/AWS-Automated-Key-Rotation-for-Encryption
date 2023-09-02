@@ -1,4 +1,4 @@
-from aws_kms import create_new_key
+from aws_kms import create_new_key, list_keys, enable_key, disable_key, delete_key
 from resource_updater import update_resources_with_new_key
 from key_rotation_scheduler import schedule_key_rotation
 
